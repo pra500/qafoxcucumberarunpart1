@@ -29,7 +29,7 @@ public class b1 {
 	   
 		System.out.println("the state name is "+sta);
 	}
-	
+		
 	@Given("^check order history$")
 	public void check_order_history() {
 		

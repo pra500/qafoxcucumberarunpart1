@@ -11,44 +11,7 @@ public class Registration {
 	public void user_navigates_to_the_registration_page()
 	{
 		 System.out.println("<<Hello1>>");
-	}
-	  
-	
-	@When("enter firstname {string}")
-	public void enter_firstname() {
-		 System.out.println("<<Hello2>>");
-	}
-
-	@When("enter email luctus.vulputate@outlook.ca")
-	public void enter_email_luctus_vulputate_outlook_ca() {
-		 System.out.println("<<Hello3>>");
-	}
-
-	@When("enter pwd {int}")
-	public void enter_pwd(Integer int1) {
-		 System.out.println("<<Hello4>>");
-	}
-
-	@When("enter email justo@yahoo.com")
-	public void enter_email_justo_yahoo_com() {
-		 System.out.println("<<Hello5>>");
-	   
-	}
-
-	@When("enter email eu.placerat@aol.net")
-	public void enter_email_eu_placerat_aol_net() {
-		 System.out.println("<<Hello64>>");
-	}
-
-
-	
-	
-	
-	@And("^enter email and other fields$")
-	public void enter_email_and_other_fields()
-	{
-		 System.out.println("<<Hello3>>");
-	}
+	}	
 	
 	
 	@And("^select subscribe to yes and agree to privacy policy$")
@@ -57,11 +20,15 @@ public class Registration {
 		 System.out.println("<<Hello4>>");
 	}
 	
+	
 	@And("^click on continue button$")
-	public void click_on_continue_button()
+	public void enter_email_and_other_fields()
 	{
-		 System.out.println("<<Hello5>>");
+		 System.out.println("<<Hello3>>");
 	}
+	
+	
+	
 
 	@Then("^the account is created successfully$")
 	public void the_account_is_created_successfully()
@@ -85,17 +52,6 @@ public class Registration {
     }
 
 	
-    @When("^user navigates to the production page$")
-    public void navigateToProdPage() {
-    	
-    	System.out.println("prod 1");
-       
-    }
-    
-    @Then("^production number is displayed$")
-    public void verifyProdNumberDisplayed() {
-    
-    	System.out.println("prod 2");
-    }
+   
      
 }
