@@ -1,0 +1,2 @@
+Feature: tests sanity reg
+
