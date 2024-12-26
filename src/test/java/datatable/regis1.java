@@ -31,6 +31,6 @@ public class regis1 {
 	public void registartion_successful() {
 		System.out.println("aa1");
 	}
-
+//**************
 
 }
